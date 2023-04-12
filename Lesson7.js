@@ -475,4 +475,4 @@ let user3 = {
 // // перебор значений -checking values
 for (let i of Object.values(user3.name)) {
   console.log(i); 
-}
+} 

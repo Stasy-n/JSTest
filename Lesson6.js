@@ -259,3 +259,4 @@
 // delete fruits[1];
 // console.log(typeof fruits[1])
 
+ 
