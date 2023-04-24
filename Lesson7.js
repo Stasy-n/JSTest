@@ -8,7 +8,7 @@
 // console.log(arr < arr1);
 
 // const a = [1, 2, 3];
-const b = [1, 2, 3];
+//const b = [1, 2, 3];
 
 // const a1 = [1, 2, 7];
 // const b1 = [1, 2, 6];
@@ -25,7 +25,7 @@ const b = [1, 2, 3];
 // =========================
 
 //let arr = [1, 2, 3];
-let emptyArr = []
+//let emptyArr = []
 // emptyArr.push(1, 5, 7)
 // emptyArr.push(1, 3, 5, "f")
 // emptyArr[0] = "A"
@@ -226,28 +226,28 @@ It is a common practice to declare objects with the const keyword.
 
 // // ============================================================
 // Обращение к свойствам объекта
-let arr = [1,3,5,7]
-const customers = [
-  {               //   !!! Array[0]
-    id: '01',                //
-    personalInfo: {  name: { first: 'John', last: 'Dow'}, },},
+// let arr = [1,3,5,7]
+// const customers = [
+  // {               //   !!! Array[0]
+  //   id: '01',                
+  //   personalInfo: {  name: { first: 'John', last: 'Dow'}, },},
 
-  {                //    !!! Array[1]
-    id: '02',                //
-    personalInfo: {          //
-      name: {                //
-        first: 'Jane',       //
-        last: 'Dow',         //
-      },
-      dob: '01/01/1990',         //
-      "contactInfo": {           //
-        phone: '+123456789',     //
-        email: [3,7,[4,8]],             //
-        address: null,           //
-      },
-    },
-     purchases: [{two: 2},6, 3],           //
-  }];
+  // {                //    !!! Array[1]
+  //   id: '02',                
+  //   personalInfo: {          
+  //     name: {                
+  //       first: 'Jane',       
+  //       last: 'Dow',         
+  //     },
+  //     dob: '01/01/1990',         
+  //     "contactInfo": {           
+  //       phone: '+123456789',     
+  //       email: [3,7,[4,8]],             
+  //       address: null,           
+  //     },
+  //   },
+  //    purchases: [{two: 2},6, 3],           
+  // }];
 
 // 1. Свойства 1-го уровня -array elements
 //   console.log(customers.length);
@@ -451,12 +451,12 @@ const customers = [
 // Object.entries(obj) – возвращает массив пар [ключ, значение].
 
 
-let user = {
-  name: "John",
-  age: 30,
-  isAdmin: true,
-  language: "JavaScript",
-};
+// let user = {
+//   name: "John",
+//   age: 30,
+//   isAdmin: true,
+//   language: "JavaScript",
+// };
 
 //console.log("Keys: ", Object.keys(user));    //выводит ключи (keys)
 //console.log("Values: ", Object.values(user));  //выводит значения (values)
@@ -464,15 +464,15 @@ let user = {
 
 // ======== перебор в цикле
 //console.log('===========');
-let user3 = {
-  name: {name: "Kate", age2 : 22},
-  age: 30,
-  language: 'en',
-  home: 'apartment',
-  number: 6
-}
+// let user3 = {
+//   name: {name: "Kate", age2 : 22},
+//   age: 30,
+//   language: 'en',
+//   home: 'apartment',
+//   number: 6
+// }
 
 // // перебор значений -checking values
-for (let i of Object.values(user3.name)) {
-  console.log(i); 
-} 
+// for (let i of Object.values(user3.name)) {
+//   console.log(i); 
+// } 
